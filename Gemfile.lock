@@ -65,6 +65,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  jekyll (>= 3.8.4)
   jekyll-archives
   jekyll-feed
   jekyll-paginate
@@ -72,7 +73,7 @@ DEPENDENCIES
   wdm (>= 0.1.0)
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 2.4.4p296
 
 BUNDLED WITH
-   1.16.4
+   1.16.6
