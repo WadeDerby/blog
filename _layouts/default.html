@@ -86,7 +86,8 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/frontend">Front-End</a>
+                <!-- <a class="nav-link" href="{{ site.baseurl }}/frontend">Front-End</a> -->
+                <a class="nav-link" href="#">Front-End</a>
                 </li>
                 
                 {% if page.url == "/dotnet.html" %}
@@ -94,7 +95,8 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/dotnet">.NET Core</a>
+                <!-- <a class="nav-link" href="{{ site.baseurl }}/dotnet">.NET Core</a> -->
+                <a class="nav-link" href="#">.NET Core</a>
                 </li>
                 
                 {% if page.url == "/laravel.html" %}
@@ -102,7 +104,8 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/laravel">Laravel</a>
+                <!-- <a class="nav-link" href="{{ site.baseurl }}/laravel">Laravel</a> -->
+                <a class="nav-link" href="#">Laravel</a>
                 </li>
                 
                 {% if page.url == "/ml.html" %}
@@ -110,7 +113,8 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/ml">Machine Learning</a>
+                <!-- <a class="nav-link" href="{{ site.baseurl }}/ml">Machine Learning</a> -->
+                <a class="nav-link" href="#">Machine Learning</a>
                 </li>
 
                 <li class="nav-item">
@@ -137,12 +141,15 @@
     
 <!-- Site Title
 ================================================== -->
+{% if page.heading == true %}
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
          {{ site.description }}
     </p>
 </div>
+{% else %}
+{% endif %}
 
     
     
@@ -202,10 +209,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                 Copyright © {{ site.time | date: "%Y" }} Wade Derby 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net">Mediumish Theme</a> by WowThemes.net
+                <a target="_blank"  class="social-btn" href="https://twitter.com/wadederby"><i class="fab fa-twitter"></i></a>
+                <a target="_blank"  class="social-btn" href="https://github.com/wadederby"><i class="fab fa-github"></i></a>
+                <a target="_blank"  class="social-btn" href="https://twitter.com/wadederby"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank"  class="social-btn" href="https://wadederby.com"><i class="fa fa-external-link-alt"></i></a>
             </div>
         </div>
     </div>

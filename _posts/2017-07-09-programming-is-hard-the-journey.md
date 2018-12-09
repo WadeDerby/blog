@@ -5,7 +5,7 @@ author: wade
 categories: [ programming, intro ]
 image: assets/images/12.jpg
 featured: true
-hidden: false
+hidden: true
 ---
 
 You know that hackneyed saying about how the journey of a thousand miles begins with one step? Well, my friend Godfred Boateng says the journey of a programmer begins with a thousand pages. He had spent three months of the vacation reading a thousand-page book on the fundamentals of C# programming.
