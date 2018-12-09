@@ -1,0 +1,21 @@
+.mediumnavigation .navbar-brand img {
+    max-height: 50px;
+}
+
+.social-btn{
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.mainheading h1.sitetitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .jumbotron.fortags {
+        background-image: url(../images/jumbotron.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
