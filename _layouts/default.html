@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />		
+    <meta name="description" content="Wade Derby is a full stack web developer and designer"/>
+    <meta name="keywords" content="web dev, frontend, website development"/>
+    <meta name="robots" content="index,follow"/>
+
+    <meta property="og:title" content="Wade Derby | Web Developer" />
+    <meta property="og:type" content="website" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta property="og:url" content="http://wadederby.com" />
+    <meta property="og:image" content="http://wadederby.com/images/avaatar.png"/>
+    <meta property="og:site_name" content="Wade Derby">
+    <meta property="og:description" content="Wade Derby is a full stack web developer and designer" />															
     
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
     
 <title>{{ page.title }} | {{site.name}}</title>
     
@@ -19,6 +30,7 @@
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
     
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
     
 </head>
     
@@ -66,35 +78,47 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">Home</a>
                 </li>
                 
-                {% if page.url == "/about.html" %}
+                {% if page.url == "/frontend.html" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                <a class="nav-link" href="{{ site.baseurl }}/frontend">Front-End</a>
                 </li>
                 
+                {% if page.url == "/dotnet.html" %}
+                <li class="nav-item active">
+                {% else %}
                 <li class="nav-item">
-                <a class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip"><i class="fas fa-download"></i> Jekyll Version</a>
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/dotnet">.NET Core</a>
                 </li>
                 
+                {% if page.url == "/laravel.html" %}
+                <li class="nav-item active">
+                {% else %}
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-wordpress/"><i class="fab fa-wordpress-simple"></i> WP Version</a>
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/laravel">Laravel</a>
                 </li>
                 
+                {% if page.url == "/ml.html" %}
+                <li class="nav-item active">
+                {% else %}
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.wowthemes.net/themes/mediumish-ghost/"><i class="fab fa-snapchat-ghost"></i> Ghost Version</a>
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/ml">Machine Learning</a>
                 </li>
 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://www.facebook.com/wowthemesnet/"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" class="nav-link" href="https://github.com/wadederby"><i class="fab fa-github"></i></a>
                 </li>
                 
                 <li class="nav-item">
-                <a target="_blank"  class="nav-link" href="https://twitter.com/wowthemesnet"><i class="fab fa-twitter"></i></a>
+                <a target="_blank"  class="nav-link" href="https://twitter.com/wadederby"><i class="fab fa-twitter"></i></a>
                 </li>
                 
             </ul>		
@@ -130,7 +154,7 @@
 
 <!-- Bottom Alert Bar
 ================================================== -->
-<div class="alertbar">
+<!-- <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
@@ -139,7 +163,7 @@
             <input type="submit" value="Subscribe" name="subscribe" class="heart">
             </div>
         </form>
-	</div>
+	</div> -->
 </div>    
     
 </div><!-- /.container>
