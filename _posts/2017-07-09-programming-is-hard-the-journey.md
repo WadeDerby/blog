@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming is hard… Part 1: The Journey"
+title:  "Programming is hard — Part 1: The Journey"
 author: wade
 categories: [ programming, intro ]
 image: assets/images/12.jpg

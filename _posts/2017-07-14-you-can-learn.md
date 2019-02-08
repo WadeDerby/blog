@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming is hard — (But you can learn!)"
+title:  "Programming is hard — Part 2: (But you can learn!)"
 author: wade
 categories: [ programming, intro ]
 image: assets/images/1.jpeg
