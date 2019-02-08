@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming is hard … It gets easier."
+title:  "Programming is hard — Part 3: It gets easier."
 author: wade
 categories: [ programming, intro ]
 image: assets/images/6.jpg
