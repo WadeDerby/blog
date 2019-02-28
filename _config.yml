@@ -6,7 +6,7 @@ meta_description: "Jekyll template, web developement, machine learning"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.png'
 baseurl: ''
-google_analytics: ''
+google_analytics: 'UA-135010947-1'
 disqus: ''
 mailchimp-list: ''
 

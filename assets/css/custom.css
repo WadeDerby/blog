@@ -11,6 +11,23 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.mainheading h1.posttitle{
+    font-weight: 400;
+}
+
+.featured-image.caption{
+    text-align: center;
+    margin: 30px;
+    color: #999;
+}
+
+.article-post {
+    font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: rgba(0,0,0,.8);
+}
+
 @media (min-width: 768px) {
     .jumbotron.fortags {
         background-image: url(../images/jumbotron.jpg);
