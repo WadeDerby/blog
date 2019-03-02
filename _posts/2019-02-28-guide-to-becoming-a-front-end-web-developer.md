@@ -8,6 +8,13 @@ image_link: https://unsplash.com/photos/Ek9Znm8lQ1U
 image_author: Florian Olivo
 featured: true
 hidden: false
+
+og_title: Guide to becoming a front-end web developer
+og_type: website
+og_url: https://blog.wadederby.com/programming/frontend/2019/02/28/guide-to-becoming-a-front-end-web-developer.html
+og_image: https://blog.wadederby.com/assets/images/florian-olivo.jpg
+og_site_name: Wade Derby | Blog
+og_description: Front-end web development. You’ve heard a lot about it and if you’re reading this, you’re probably interested in software development
 ---
 
 Front-end web development. You’ve heard a lot about it and if you’re reading this, you’re probably interested in software development.
