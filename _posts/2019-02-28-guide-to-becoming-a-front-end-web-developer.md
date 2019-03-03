@@ -27,7 +27,7 @@ Here are a few tips to take note of as you begin your journey to amazing front-e
 
 1. Learn HTML & CSS - and get very strong fundamental understanding
 
-    A common mistake many beginners make is that they to learn HTML & CSS in a rush and then plunge right into a front-end framework. You must take time to understand the structure of web pages and building them using pure HTML and CSS. Some great resources to begin with are https://www.freecodecamp.org/ and https://www.w3schools.com/  and they're free!
+    A common mistake many beginners make is that they to learn HTML & CSS in a rush and then plunge right into a front-end framework. You must take time to understand the structure of web pages and building them using pure HTML and CSS. Some great resources to begin with are https://www.freecodecamp.org and https://www.w3schools.com  and they're free!
 
 2. Build a lot of  full-fledged pages and UI elements
 
@@ -37,9 +37,9 @@ Here are a few tips to take note of as you begin your journey to amazing front-e
 
     There is no workaround this one. You have to read to know. So read!  Read as many articles you can on UI and UX and developing user-centred designs. Reading tutorials on building layouts, using grids and flexbox, in web pages. Read about building responsive websites.
 
-4. Learn Vanilla JavaScript
+4. Learn JavaScript
 
-    It’s important to grasp a good understanding of JavaScript although you may not rely heavily on it to build webpages. A decent knowledge of JavaScript will greatly enhance your web pages interactivity, especially if you intend to build Progressive Web Apps, you’d need knowledge in JavaScript. https://www.freecodecamp.org/ is still a valuable resource. A book I’d recommend is JavaScript: The Definitive Guide by David Flanagan. It is a very good book for those without prior programming experience. 
+    It’s important to grasp a good understanding of JavaScript although you may not rely heavily on it to build webpages. A decent knowledge of JavaScript will greatly enhance your web pages interactivity, especially if you intend to build Progressive Web Apps, you’d need knowledge in JavaScript. https://www.freecodecamp.org is still a valuable resource. A book I’d recommend is JavaScript: The Definitive Guide by David Flanagan. It is a very good book for those without prior programming experience. 
 
 5. Learn Version Control
 
