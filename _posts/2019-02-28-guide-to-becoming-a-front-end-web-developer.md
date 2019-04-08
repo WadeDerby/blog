@@ -6,6 +6,7 @@ categories: [ programming, frontend ]
 image: assets/images/florian-olivo.jpg
 image_link: https://unsplash.com/photos/Ek9Znm8lQ1U
 image_author: Florian Olivo
+image_source: Unsplash
 featured: true
 hidden: false
 

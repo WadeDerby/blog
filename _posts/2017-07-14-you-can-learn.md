@@ -2,10 +2,19 @@
 layout: post
 title:  "Programming is hard — Part 2: (But you can learn!)"
 author: wade
-categories: [ programming, intro ]
-image: assets/images/1.jpeg
-featured: false
+categories: [ intro ]
+image: aassets/images/1.jpeg
+image_link: https://blog.wadederby.com/assets/images/1.jpeg
+image_author: Waheed Derby
+eatured: false
 hidden: false
+
+og_title: Programming is hard — Part 2: (But you can learn!)
+og_type: website
+og_url: https://blog.wadederby.com/intro/2017/07/14/you-can-learn.html
+og_image: https://blog.wadederby.com/assets/images/1.jpeg
+og_site_name: Wade Derby | Blog
+og_description: Hello Friends! Per popular requests from my readers, I will be going through some programming tips for novice programmers and those who want to learn how to code.
 ---
 
 Hello Friends! Per popular requests from my readers, I will be going through some programming tips for novice programmers and those who want to learn how to code. Don’t forget to keep up with my blog posts so you don’t miss anything! Also, I will be sharing a few things on my twitter account so make sure you follow me [@wadederby](https://www.twitter.com/wadederby "Twitter Page") . Enjoy today’s lesson!
