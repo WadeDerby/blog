@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Programming is hard — Part 2: (But you can learn!)"
+title: "Programming is hard — Part 2: (But you can learn!)"
 author: wade
-categories: [ intro ]
-image: aassets/images/1.jpeg
+categories: [intro]
+image: assets/images/1.jpeg
 image_link: https://blog.wadederby.com/assets/images/1.jpeg
 image_author: Waheed Derby
 eatured: false
@@ -17,7 +17,7 @@ og_site_name: Wade Derby | Blog
 og_description: Hello Friends! Per popular requests from my readers, I will be going through some programming tips for novice programmers and those who want to learn how to code.
 ---
 
-Hello Friends! Per popular requests from my readers, I will be going through some programming tips for novice programmers and those who want to learn how to code. Don’t forget to keep up with my blog posts so you don’t miss anything! Also, I will be sharing a few things on my twitter account so make sure you follow me [@wadederby](https://www.twitter.com/wadederby "Twitter Page") . Enjoy today’s lesson!
+Hello Friends! Per popular requests from my readers, I will be going through some programming tips for novice programmers and those who want to learn how to code. Don’t forget to keep up with my blog posts so you don’t miss anything! Also, I will be sharing a few things on my twitter account so make sure you follow me [@waheedderby](https://www.twitter.com/waheedderby "Twitter Page") . Enjoy today’s lesson!
 
 The most common questions I am asked by aspiring programmers are: (i) Which programming language is the best? and (ii) Which programming language is the easiest to use? The answer to both questions is the same, it solely depends on what you want to achieve. If for instance you want to build a native mobile app for android devices, you need Java or Kotlin. However for web development you might need HTML, CSS and JavaScript.
 
@@ -29,4 +29,4 @@ I am a web developer and I’ve been working on web apps for close to half a dec
 
 There might be a few who just want to learn to code as a skill without going mainstream into heavy development. My choice of language is Python. I won’t bore you with geek jargon and “features”. However, here are a few reasons I recommend python: it is easy to understand, very flexible and it is the 4th most used language on Github meaning it has a large community of users. Programming is easy with enough dedication you’ll be coding like a pro in no time.
 
-If you want to start learning, need help with resources or you have a couple of questions about coding, send me a tweet [@wadederby](https://www.twitter.com/wadederby "Twitter Page") or using the #codingwithwade.
+If you want to start learning, need help with resources or you have a couple of questions about coding, send me a tweet [@waheedderby](https://www.twitter.com/waheedderby "Twitter Page") or using the #codingwithwade.
