@@ -1,68 +1,62 @@
 ---
 layout: default
-title: Wade Derby - Web Developer
+title: Home
 heading: true
-og_title: Wade Derby | Web Developer
+og_title: "{{ site.name }}"
 og_type: website
-og_url: http://wadederby.com
-og_image: http://wadederby.com/images/avaatar.png
-og_site_name: Wade Derby
-og_description: Wade Derby is a full stack web developer and designer
+og_url: "{{ site.homeurl | default: site.url }}"
+og_image: "{{ site.homeurl | default: site.url }}/{{ site.logo }}"
+og_site_name: "{{ site.name }}"
+og_description: "{{ site.description | default: site.name }}"
 ---
 
-{% if page.url == "/" %}
-
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
+<!-- Featured posts (2 latest) -->
+<section class="featured-posts" id="featured">
+  <div class="container">
+    <h2 class="section-title">Featured</h2>
+    <div class="featured-grid">
+      {% for post in site.posts limit: 2 %}
+        {% include postbox.html %}
+      {% endfor %}
     </div>
-    <div class="row">
-        
-    {% for post in site.posts %}
+  </div>
+</section>
 
-        {% if post.featured == true %}
+<!-- All posts -->
+<section class="blog-section" id="posts">
+  <div class="container">
+    <h2 class="section-title">All posts</h2>
 
-            {% include featuredbox.html %}
+    <div class="blog-grid">
+      {% for post in paginator.posts %}
+        {% include postbox.html %}
+      {% endfor %}
+    </div>
 
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination-wrap">
+      <nav class="pagination" aria-label="Posts pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">← Prev</a>
+        {% else %}
+          <span aria-disabled="true">← Prev</span>
         {% endif %}
-
-    {% endfor %}
-        
-    </div>
-</section>
-
-{% endif %}
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-    
-    <div class="section-title">
-        
-        <h2><span>All Posts</span></h2>
-        
-    </div>
-    
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-               {% include postbox.html %}          
-
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <span class="current" aria-current="page">{{ page }}</span>
+          {% elsif page == 1 %}
+            <a href="{{ site.baseurl }}/">{{ page }}</a>
+          {% else %}
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          {% endif %}
         {% endfor %}
-        
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next →</a>
+        {% else %}
+          <span aria-disabled="true">Next →</span>
+        {% endif %}
+      </nav>
     </div>
-    
+    {% endif %}
+  </div>
 </section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-

@@ -10,6 +10,8 @@ ruby RUBY_VERSION
 
 # If you have any plugins, put them here!
 gem "jekyll", ">= 3.8.4"
+# Pin ffi so it builds on macOS with Ruby 2.7+ (old 1.9.x fails to compile)
+gem "ffi", ">= 1.13.0"
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
     gem 'jekyll-feed'
